@@ -1,10 +1,36 @@
 # DFO-Based Text Summarization
 
+A Python implementation of extractive text summarization using Dispersive Flies Optimization (DFO) algorithm. This system uses various DFO variants to optimize sentence selection for generating concise and informative summaries of scientific papers.
+
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 ![DFO Optimization: Blue](https://img.shields.io/badge/DFO-Optimization-purple.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A Python implementation of extractive text summarization using Dispersive Flies Optimization (DFO) algorithms. This system uses various DFO variants to optimize sentence selection for generating concise and informative summaries of scientific papers.
+## Overview
+
+This project leverages Dispersive Flies Optimization (DFO) to tackle the extractive text summarization problem. DFO is a population-based swarm intelligence algorithm inspired by the behavior of flies hovering over food sources. 
+
+### How It Works
+
+1. **Document Processing**: Each document is processed into sentences and various linguistic features are extracted.
+2. **Optimization Problem**: Sentence selection is formulated as an optimization problem where:
+   - Each fly in the swarm represents a candidate summary (a subset of sentences)
+   - The fitness function balances relevance, coherence, and length constraints
+   - The goal is to find the optimal subset of sentences that best represents the document
+
+3. **Algorithm Variants**: Multiple DFO variants have been implemented to improve performance:
+   - Elite strategies to preserve the best solutions
+   - Local search mechanisms to refine promising solutions
+   - Momentum-based updates to escape local optima
+   
+4. **Evaluation**: Summaries are evaluated using ROUGE metrics against reference summaries.
+
+### Advantages
+
+- **Efficient Exploration**: DFO effectively explores the vast space of possible sentence combinations
+- **Parallelizable**: Naturally supports multi-threaded processing for batch summarization
+- **Customizable**: Easily adaptable to different document types and summarization requirements
+- **No Training Required**: Unlike neural approaches, this method doesn't require supervised training
 
 ## Features
 
