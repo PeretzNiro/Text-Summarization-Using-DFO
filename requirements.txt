@@ -1,0 +1,19 @@
+# Core dependencies
+numpy>=1.21.0
+spacy>=3.5.0
+scikit-learn>=1.0.0
+tqdm>=4.65.0
+datasets>=2.14.0
+rouge-score>=0.1.2
+psutil>=5.9.0
+
+# NLP models
+en-core-web-sm>=3.5.0
+
+# Data processing and analysis
+pandas>=1.5.0
+nltk>=3.8.0
+scipy>=1.9.0
+
+# Progress and monitoring
+tensorboard>=2.14.0
