@@ -4,7 +4,6 @@ A Python implementation of extractive text summarization using Dispersive Flies 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
-[![GitHub stars](https://img.shields.io/github/stars/PeretzNiro/Text-Summarization-Using-DFO?style=social)](https://github.com/PeretzNiro/Text-Summarization-Using-DFO/stargazers)
 [![Research](https://img.shields.io/badge/Research-Academic-9cf)](https://github.com/PeretzNiro/Text-Summarization-Using-DFO)
 [![NLP](https://img.shields.io/badge/NLP-Text_Summarization-green)](https://github.com/PeretzNiro/Text-Summarization-Using-DFO)
 [![Swarm Intelligence](https://img.shields.io/badge/Swarm-Intelligence-purple)](https://github.com/PeretzNiro/Text-Summarization-Using-DFO)
